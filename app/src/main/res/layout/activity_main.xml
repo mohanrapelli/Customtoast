@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="30dp">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="RANDY ORTON"
+           android:backgroundTint="@color/black"
+           android:id="@+id/button">
+
+       </Button>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="JOHN CENA"
+           android:layout_below="@+id/button"
+           android:backgroundTint="@color/b"
+           android:id="@+id/button1">
+
+       </Button>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ROMAN REIGNS"
+           android:layout_below="@+id/button1"
+           android:backgroundTint="@color/design_default_color_error"
+           android:id="@+id/button2">
+
+       </Button>
+   </RelativeLayout>
+
+</LinearLayout>
